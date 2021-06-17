@@ -138,12 +138,12 @@
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tilPassword"
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:hint="Password"
-            android:inputType="textPassword"
+            android:inputType="textVisiblePassword|textPassword|numberPassword"
             android:password="true" />
     </com.google.android.material.textfield.TextInputLayout>
 

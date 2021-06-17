@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         click()
     }
     fun view(){
-        etName=findViewById(R.id.etName3)
+        etName=findViewById(R.id.etName)
         etPassword=findViewById(R.id.etPassword1)
         btnSignUp=findViewById(R.id.btnSignUp2)
     }
